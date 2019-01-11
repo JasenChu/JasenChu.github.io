@@ -138,8 +138,8 @@ exturl: false
 # External url should start with http:// or https://
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
+  about: /about/ || user
+  tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
@@ -157,10 +157,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -212,7 +212,7 @@ avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  url: /images/mysun.jpg
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -510,7 +510,7 @@ pangu: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: dd5e84e256f7f0cf8b15503bc976195b
 
 # Growingio Analytics ID
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
@@ -533,9 +533,9 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # More info available at https://valine.js.org
 valine:
-  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  appid: et8EeVLivaWbt65iDd5hLvAk-gzGzoHsz
+  appkey: 60SjEw4mXwswSPGO7OD0RStY
   notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
@@ -680,13 +680,13 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: et8EeVLivaWbt65iDd5hLvAk-gzGzoHsz
+  app_key: 60SjEw4mXwswSPGO7OD0RStY
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
-  security: true
+  security: false
   betterPerformance: false
 
 # Another tool to show number of visitors to each article.

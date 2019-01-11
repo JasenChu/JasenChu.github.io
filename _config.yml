@@ -4,16 +4,16 @@
 
 # Site
 title: 安于平淡
-subtitle:
+subtitle: 简单，平淡，慵懒
 description:
-keywords:
-author: Jasen Chu
-language:
+keywords: Hexo,NexT,Github,Chu,简单
+author: JasenChu
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://jasenchu.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
